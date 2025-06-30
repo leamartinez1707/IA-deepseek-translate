@@ -2,11 +2,6 @@
 
 > **Aplicación web moderna y responsive para traducción de texto en tiempo real utilizando la potente API de DeepSeek.**
 
-[![Made with Love](https://img.shields.io/badge/Made%20with-❤️-red.svg)](https://github.com/yourusername/IA-traduccion)
-[![JavaScript](https://img.shields.io/badge/JavaScript-ES6+-yellow.svg)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
-[![CSS3](https://img.shields.io/badge/CSS3-Modern-blue.svg)](https://developer.mozilla.org/en-US/docs/Web/CSS)
-[![Responsive](https://img.shields.io/badge/Design-Responsive-green.svg)](https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Responsive_Design)
-
 ## ✨ Características Principales
 
 🎨 **Diseño Moderno**
