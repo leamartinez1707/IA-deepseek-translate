@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description"
+    content="Chat de traducciones con IA - Traduce texto a múltiples idiomas de forma instantánea" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+  <script src="js/main.js" defer></script>
+  <title>IA Traducciones - Chat Inteligente</title>
+</head>
+
+<body>
+  <header class="chat_header">
+    <img src="./images/bot-chat.webp" alt="Logo del Chat de IA" class="header_image">
+    <h1 class="header_title">Chat de Traducciones IA</h1>
+  </header>
+
+  <main class="chat" role="main">
+    <div class="chat_messages" role="log" aria-live="polite" aria-label="Conversación de traducciones">
+      <div class="chat_messages-empty" aria-hidden="true">
+      </div>
+    </div>
+
+    <form class="chat_input-group" aria-label="Formulario de traducción">
+      <label for="chat_input" class="sr-only">Texto a traducir</label>
+      <input maxlength="100" type="text" id="chat_input" class="chat_input" placeholder="Escribe tu mensaje aquí..."
+        autocomplete="off" required>
+
+      <div class="chat_inputs">
+        <label for="chat_select" class="sr-only">Idioma de destino</label>
+        <select class="chat_select" name="targetLang" id="chat_select" required>
+          <option value="">Selecciona un idioma</option>
+          <option value="Español">🇪🇸 Español</option>
+          <option value="Inglés">🇺🇸 Inglés</option>
+          <option value="Francés">🇫🇷 Francés</option>
+          <option value="Alemán">🇩🇪 Alemán</option>
+          <option value="Italiano">🇮🇹 Italiano</option>
+          <option value="Portugués">🇵🇹 Portugués</option>
+          <option value="Ruso">🇷🇺 Ruso</option>
+          <option value="Chino">🇨🇳 Chino</option>
+          <option value="Japonés">🇯🇵 Japonés</option>
+          <option value="Árabe">🇸🇦 Árabe</option>
+        </select>
+
+        <button type="submit" class="chat_button" id="chat_button" aria-label="Traducir texto">
+          <span>✨ Traducir</span>
+        </button>
+      </div>
+    </form>
+  </main>
+
+</body>
+
+</html>
